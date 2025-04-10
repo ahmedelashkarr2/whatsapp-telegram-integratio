@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-telegram-integration",
+  "version": "1.0.0",
+  "description": "Integration to forward WhatsApp messages to Telegram",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.19.5",
+    "qrcode-terminal": "^0.12.0",
+    "telegraf": "^4.12.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
